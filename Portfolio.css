@@ -1,0 +1,113 @@
+
+*{
+  padding:0;
+  margin:0;
+}
+.logo {
+  float: left;
+  /* padding: 20px 0; */
+  padding-top: 55px;
+  padding-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+  padding-top: 60px;
+  padding-right: 60px;
+}
+nav a {
+  display: inline-block;
+}
+nav ul li {
+  /*float: right;*/
+  display: inline-block;
+}
+nav ul li a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+color: #a6a6a6;
+}
+.navigation {
+  background: #384355;
+  height: 150px;
+  width:100%;
+border-bottom: 5px solid #0066cc;
+}
+.active {
+  color: #a6a6a6;
+}
+.cvcontainer {
+margin: 0 auto;
+max-width: 1600px;
+display: flex;
+padding: 50px;
+box-sizing: border-box;
+flex-direction: row;
+}
+
+.cv1 {
+flex: 1;
+background: #384355;
+padding: 30px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 25px;
+color: white;
+}
+.cv1 p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.cv1 h1 {
+  padding-top: 5px;
+}
+
+.cv2 {
+flex: 1;
+background: #384355;
+padding: 30px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 25px;
+margin-left: 25px;
+margin-right: 25px;
+color: white;
+}
+
+.cv3 {
+flex: 1;
+background: #384355;
+padding: 30px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 25px;
+margin-left: 25px;
+color: white;
+}
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: white;
+}
+body {
+  background-color: #28303e;
+}
